@@ -23,7 +23,7 @@ This repository is your starting point for the Campus Comps case. It already hol
 | `AGENT_LOG.md` | Your agent log |
 | `scripts/` | Scripts that make smaller data files for the site |
 | `checks/` | Your separate checks of the site's numbers |
-| `.github/workflows/pages.yml` | Publishes the site to GitHub Pages each time you push to main. It publishes your files as they are, with no build step. |
+| `.github/workflows/pages.yml` | Publishes the site to GitHub Pages each time you push to main. It publishes your files as they are. If you switch to a framework that needs a build step, have your agent update it. |
 
 Don't edit any of the five dataset files. Your site needs only the CSV file. The other formats make it easier to check numbers a second way, for example with a pivot table in Excel or a SQL query on the SQLite file. In SQLite and DuckDB, the table is named `home_sales`.
 
@@ -34,18 +34,6 @@ _Replace this line with your site's question and audience, or a short descriptio
 ## Live site
 
 https://your-username.github.io/your-repo-name/
-
-## Preview it on your own computer
-
-From the repository folder, start a local web server:
-
-```bash
-python -m http.server 8000
-```
-
-Then open http://localhost:8000/. Opening `index.html` straight from the file won't load the data.
-
-_If you preview the site another way, describe that way here instead._
 
 ## Data notes
 
