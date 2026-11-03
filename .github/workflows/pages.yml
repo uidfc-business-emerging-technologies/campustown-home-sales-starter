@@ -1,5 +1,7 @@
 # Publishes this repository's files to GitHub Pages each time you push to main.
 # Nothing is built: the site goes live exactly as the files are in the repository.
+# Using a framework that needs a build step, such as React? Ask your agent to add the build
+# steps before "Package the files" and to change its path to the build output folder, such as dist.
 # Before it can publish, turn on GitHub Pages: Settings, then Pages, then set Source to "GitHub Actions".
 
 name: Publish site to GitHub Pages
