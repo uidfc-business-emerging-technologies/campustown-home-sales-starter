@@ -2,7 +2,7 @@
 
 ## Start here (delete this section before you submit)
 
-This repository is your starting point for the Campus Comps case. It already holds the dataset, its description sheet, project instructions for your AI coding agent, and outlines of the README and agent log that the case asks for.
+This repository is your starting point for the Home Sales case. It already holds the dataset, its description sheet, project instructions for your AI coding agent, and outlines of the README and agent log that the case asks for.
 
 1. **Turn on GitHub Pages.** In this repository, open **Settings**, then **Pages**. Under "Build and deployment," set **Source** to **GitHub Actions**. GitHub may suggest workflows to add. Skip them: this repository already has one, `.github/workflows/pages.yml`.
 2. **Publish for the first time.** Open the **Actions** tab, choose **Publish site to GitHub Pages** in the sidebar, click **Run workflow**, then click **Run workflow** again to confirm. If the tab already shows a failed run from when you created the repository, that's expected: Pages wasn't turned on yet. When the new run shows a green check, your site is at `https://your-username.github.io/your-repo-name/`. It shows a placeholder page until you replace `index.html`.
@@ -22,7 +22,6 @@ This repository is your starting point for the Campus Comps case. It already hol
 | `AGENTS.md` | Project instructions for your AI coding agent |
 | `AGENT_LOG.md` | Your agent log |
 | `scripts/` | Scripts that make smaller data files for the site |
-| `checks/` | Your separate checks of the site's numbers |
 | `.github/workflows/pages.yml` | Publishes the site to GitHub Pages each time you push to main. It publishes your files as they are. If you switch to a framework that needs a build step, have your agent update it. |
 
 Don't edit any of the five dataset files. Your site needs only the CSV file. The other formats make it easier to check numbers a second way, for example with a pivot table in Excel or a SQL query on the SQLite file. In SQLite and DuckDB, the table is named `home_sales`.
@@ -38,16 +37,6 @@ https://your-username.github.io/your-repo-name/
 ## Data notes
 
 _Replace this line. Say which rows you left out and why, and how each figure on the site is defined. "Five things that will bite you" in the description sheet lists the problems to cover._
-
-## How we checked our numbers
-
-_Replace this line. List at least three numbers shown on the site. Check each one with a calculation that is separate from the site's own code, such as a spreadsheet formula, a SQL query or a short script in `checks/`._
-
-| Number on the site | Where it appears | How we checked it | Result |
-|---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
 
 ## Tools we used
 
